@@ -6,6 +6,12 @@ import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { NewsComponent } from './news/news.component';
+import { FaqComponent } from './faq/faq.component';
+import { LoginComponent } from './login/login.component';
+import { GymnastsComponent } from './gymnasts/gymnasts.component';
+import { ChampionshipsComponent } from './championships/championships.component';
+import { TeamsComponent } from './teams/teams.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +19,13 @@ import { NotfoundComponent } from './notfound/notfound.component';
     IndexComponent,
     HeaderComponent,
     FooterComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    NewsComponent,
+    FaqComponent,
+    LoginComponent,
+    GymnastsComponent,
+    ChampionshipsComponent,
+    TeamsComponent
   ],
   imports: [
     BrowserModule
