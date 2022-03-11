@@ -1,0 +1,20 @@
+.header {
+  background-color: #3E0D81;
+  display: flex;
+  height: 5vh;
+}
+
+.link {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: 1.5em;
+  outline: none;
+  padding: 0 1%;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #1f0640;
+  cursor: pointer;
+}
