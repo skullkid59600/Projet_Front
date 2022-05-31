@@ -7,6 +7,8 @@ import {GymnastsComponent} from "./gymnasts/gymnasts.component";
 import {TeamsComponent} from "./teams/teams.component";
 import {NewsComponent} from "./news/news.component";
 import {FaqComponent} from "./faq/faq.component";
+import {ChampionshipsComponent} from "./championships/championships.component";
+import {LoginComponent} from "./login/login.component";
 
 const routes: Routes = [
   {path: 'index', component: IndexComponent},
@@ -15,6 +17,8 @@ const routes: Routes = [
   {path: 'teams', component: TeamsComponent},
   {path: 'news', component: NewsComponent},
   {path: 'faq', component: FaqComponent},
+  {path: 'championships', component: ChampionshipsComponent},
+  {path: 'login', component: LoginComponent},
   {path: '', component: IndexComponent},
   {path: '**', component: NotfoundComponent}
 ];
