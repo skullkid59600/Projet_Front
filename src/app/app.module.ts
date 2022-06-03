@@ -17,6 +17,8 @@ import {AppRoutingModule} from "./app-routing.module";
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { GymcountryComponent } from './gymnasts/gymcountry/gymcountry.component';
+import { GymlistComponent } from './gymnasts/gymlist/gymlist.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     LoginComponent,
     GymnastsComponent,
     ChampionshipsComponent,
-    TeamsComponent
+    TeamsComponent,
+    GymcountryComponent,
+    GymlistComponent
   ],
   imports: [
     BrowserModule,

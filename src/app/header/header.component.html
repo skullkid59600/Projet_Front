@@ -1,33 +1,30 @@
-<div class="header">
-  <!-- Partie de gauche -->
-  <div routerLink="/index" class="link">Index</div>
-  <div routerLink="/gymnasts" class="link">Gymnasts</div>
-  <div routerLink="/teams" class="link">Teams</div>
-  <div routerLink="/news" class="link">News</div>
-  <div routerLink="/faq" class="link">FAQ</div>
-  <!-- Partie de droite -->
-  <div routerLink="/login" class="linklogin">Login</div>
-</div>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar w/ text</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+<!--<nav class="navbar navbar-expand-lg navbar-light bg-dark">-->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(125,61,162,0.75);">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <div routerLink="/index" class="link">Index</div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <div routerLink="/gymnasts" class="link">Gymnasts</div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <div routerLink="/teams" class="link">Teams</div>
+      </li>
+      <li class="nav-item">
+        <div routerLink="/news" class="link">News</div>
+      </li>
+      <li class="nav-item">
+        <div routerLink="/faq" class="link">FAQ</div>
       </li>
     </ul>
     <span class="navbar-text">
-      Navbar text with an inline element
+      <div routerLink="/login" class="linklogin">Login</div>
     </span>
   </div>
 </nav>
