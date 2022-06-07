@@ -1,20 +1,24 @@
 .link {
   align-items: center;
-  color: white;
+  color: #bbb4d2;
   display: flex;
-  font-size: 1.3em;
+  font-size: 1.2em;
   outline: none;
   padding: 0 1%;
   text-decoration: none;
   letter-spacing: 1px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .link:hover {
   cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .linklogin {
-  color: white;
+  color: #d4beff;
   display: flex;
   font-size: 1.3em;
   outline: none;
@@ -24,4 +28,25 @@
 
 .linklogin:hover {
   cursor: pointer;
+}
+
+.logo{
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: none;
+  color: #482a3c;
+  font-size: 1.5em;
+  margin-right: 20px;
+  letter-spacing: 1px;
+  transition: 1s;
+}
+
+.logo:hover{
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: none;
+  color: #462954;
+  font-size: 1.5em;
+  margin-right: 20px;
+  animation: 1s;
+  letter-spacing: 2px;
+  transition: 1s;
 }
