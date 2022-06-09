@@ -1,0 +1,22 @@
+.flexgymnast {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.boutoninfo {
+  background-color: #a25d83;
+  border-color: #753F61;
+}
+
+.card-title {
+  color: #462c3c;
+  font-size: 18px;
+}
+
+.card-text {
+  color: #25161f;
+  text-align: right;
+  font-size: 15px;
+}

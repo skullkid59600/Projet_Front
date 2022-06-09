@@ -1,3 +1,21 @@
 .footer {
   background-color: #753F61;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+
+.item {
+}
+
+.footertext {
+  color: #462c3c;
+  font-size: 14px;
 }

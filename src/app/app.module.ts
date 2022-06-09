@@ -34,7 +34,7 @@ import { GymlistComponent } from './gymnasts/gymlist/gymlist.component';
     ChampionshipsComponent,
     TeamsComponent,
     GymcountryComponent,
-    GymlistComponent
+    GymlistComponent,
   ],
   imports: [
     BrowserModule,

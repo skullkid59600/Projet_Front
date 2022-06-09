@@ -10,10 +10,21 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 0;
+  flex-direction: row;
+  gap: 80px;
 }
 
 .item {
-  flex-grow: 1;
-  border: black 1px solid;
+  background-color: #a25d83;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  opacity: 0.8;
+  text-align: center;
 }
 
+.boxtest {
+  text-align: center;
+  letter-spacing: 2px;
+}
