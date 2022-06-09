@@ -17,6 +17,7 @@
 
 .card-text {
   color: #25161f;
-  text-align: right;
   font-size: 15px;
+  text-align: justify;
+  margin-bottom: 10px;
 }
