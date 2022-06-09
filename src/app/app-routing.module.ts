@@ -15,6 +15,7 @@ const routes: Routes = [
   {path: 'index', component: IndexComponent},
   {path: 'notfound', component: NotfoundComponent},
   {path: 'gymnasts', component: GymlistComponent},
+  {path: 'gymnast', component: GymnastsComponent},
   {path: 'teams', component: TeamsComponent},
   {path: 'news', component: NewsComponent},
   {path: 'faq', component: FaqComponent},
