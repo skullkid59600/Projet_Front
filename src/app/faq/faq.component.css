@@ -1,0 +1,28 @@
+.faq {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.faqbox {
+  background-color: #a2638a;
+  width: 230px;
+  height: 230px;
+  border-radius: 20px;
+}
+
+.title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+  text-decoration: none;
+  color: #482a3c;
+}
+
+.content {
+  font-family: arial;
+  font-size: 13px;
+  text-align: justify;
+  margin: 10px;
+}
