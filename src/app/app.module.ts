@@ -19,6 +19,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { GymcountryComponent } from './gymnasts/gymcountry/gymcountry.component';
 import { GymlistComponent } from './gymnasts/gymlist/gymlist.component';
+import { SigninComponent } from './signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { GymlistComponent } from './gymnasts/gymlist/gymlist.component';
     TeamsComponent,
     GymcountryComponent,
     GymlistComponent,
+    SigninComponent,
   ],
   imports: [
     BrowserModule,
