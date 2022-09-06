@@ -10,6 +10,7 @@ import {FaqComponent} from "./faq/faq.component";
 import {ChampionshipsComponent} from "./championships/championships.component";
 import {LoginComponent} from "./login/login.component";
 import {GymlistComponent} from "./gymnasts/gymlist/gymlist.component";
+import {SigninComponent} from "./signin/signin.component";
 
 const routes: Routes = [
   {path: 'index', component: IndexComponent},
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path: 'faq', component: FaqComponent},
   {path: 'championships', component: ChampionshipsComponent},
   {path: 'login', component: LoginComponent},
+  {path: 'signin', component: SigninComponent},
   {path: '', component: IndexComponent},
   {path: '**', component: NotfoundComponent}
 ];

@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 
-.logo{
+.logo {
   font-family: 'Kaushan Script', cursive;
   text-decoration: none;
   color: #482a3c;
@@ -40,7 +40,7 @@
   transition: 1s;
 }
 
-.logo:hover{
+.logo:hover {
   font-family: 'Kaushan Script', cursive;
   text-decoration: none;
   color: #462954;
@@ -49,4 +49,9 @@
   animation: 1s;
   letter-spacing: 2px;
   transition: 1s;
+}
+
+.linksignin {
+  margin-left: 15px;
+  margin-right: 15px;
 }
